@@ -1,0 +1,225 @@
+.summary{
+    display: flex;
+    width: calc(100% - 100px);
+    align-items: center;
+    background-color: white;
+    margin-left: 100px;
+    font-size: 13px;
+    font-weight: 550;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+.summary img{
+    width: 30px;
+    margin-right: 20px;
+}
+body{
+    background-color: white;
+}
+.checktron-yellow{
+    position: relative;
+    display: flex;
+    width: 150px;
+
+}
+.checktron-white{
+    position: relative;
+    display: flex;
+    width: 180px;
+
+}
+.checktron-yellow img{
+    position: absolute;
+}
+.checktron-white img{
+    position: absolute;
+}
+.checktron-yellow .checktron-yellow-child{
+    width: 100px;
+    left: 20px;
+
+}
+.checktron-yellow .checktron-yellow-last{
+    left: 100px;
+    top: -12px;
+}
+
+.checktron-white .checktron-yellow-child{
+    width: 100px;
+    left: 20px;
+    height: 4px;
+
+}
+.checktron-white .checktron-yellow-last{
+    left: 120px;
+    top: -13px;
+}
+
+.checkout-validate{
+    width: calc(100% - 100px);
+    display: flex;
+    margin-left: 100px;
+
+}
+.validate-left{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.validate-right{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.chuto{
+    font-size: 28px;
+    font-weight: 750;
+}
+.wrapttinput{
+    width: 40%;
+margin-right: 15px;
+}
+.wrapttinput input{
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid lightgray;
+    padding-left: 15px;
+    caret-color: #EAA451;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+
+    
+}
+.wrapttinput.large{
+    width: calc(80% + 15px);
+}
+
+.nameinput{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.wrapper-chuto{
+    width: calc(100% - 100px);
+    margin-left: 100px;
+    display: flex;
+}
+.wrapper-chuto div{
+    width: 50%;
+}
+.wraper-card1{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    height: max-content;
+    justify-content: space-between;
+    border-bottom: 1px  dashed gray;
+
+
+}
+.block-card {
+    width: 25%;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 15px;
+}
+.block-card.yellow{
+   background-color: #FFF0DF;
+   position: relative;
+}
+.block-card.yellow input{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    accent-color: #EAA451;
+    color: white;
+}
+
+  
+
+.block-card img{
+    width: 45px;
+}
+.block-card div{
+   font-weight: 550;
+}
+.wrakl{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nameiinput{
+    width: 100%;
+
+}
+.nameiinput input{
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid lightgray;
+    padding-left: 15px;
+    caret-color: #EAA451;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.nameiinput div{
+
+    font-size: 12px;
+    margin-top: 20px;
+}
+.nameiinput.bay {
+    width: 65%;
+    margin-right: 5%;
+}
+.nameiinput.ba {
+    width: 30%;
+}
+.validate-right button{
+    height: 40px;
+    background-color: #EAA451;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.giongslice{
+    width: calc(100% - 200px);
+    margin-left: 100px;
+    display: flex;
+    margin: 100px 100px;
+}
+.giong-bao{
+ width: 25%;
+ box-sizing: border-box;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.giong-bao img{
+    width: 40px;
+}
+.giong-bao .text-to{
+    font-size: 15px;
+    font-weight: 550;
+}
+.giong-bao .text-nho{
+    text-align: center;
+    font-size: 10px;
+    max-width: 70%;
+    color: gray;
+}
+
+
