@@ -76,7 +76,7 @@
 }
 .search_navbar img{
     position: absolute;
-    right: 0%;
+    right: 3%;
     top: 20px;
 }
 .right_navbar{
@@ -115,12 +115,118 @@ button#login{
     height: 20px;
     width: 20px;
 }
-
+.menu_navbar_media{
+    height: 40px;
+    padding: 15px;
+    display: none;
+    
+}
+.icon_bar{
+    line-height: 60px;
+    font-size: 40px;
+    color: white;
+}
 @media (max-width:1300px){
     #logo1{
         display: none;
     }
     #logo2{
         display: block;
+    }
+}
+@media (max-width:900px){
+
+    .left_navbar{
+        display: none;
+    }
+    
+    .conteiner_navbar{
+        height: 80px;
+        line-height: 40px;
+    }
+    .menu_navbar_media{
+        display: block;
+    }
+    .menu_navbar_drop{
+        display: flex;
+        background: #1F1B66;
+        border-radius: 6px 0px 0px 6px;
+        width: 156px;
+        height: 60px;
+       
+        padding-left: 25px;
+        
+    }
+    
+    .menu_navbar p {
+        width: 61px;
+        height: 27px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 60px;
+        color: #E5CCB8
+    }
+    .menu_navbar #icon_menu{
+        width: 16px;
+        height: 16px;
+        margin-left: 25px;
+        height: 100%;
+        margin-top: 22px;
+    }
+    
+    .search_navbar{
+        position: relative;
+        width: 70%;
+    }
+    .search_navbar input{ 
+        height: 60px;
+        width: 100%;
+        padding-left: 30px;
+        background: #1F1B66;
+        border: none;
+        font-size: 17px;
+    }
+    .search_navbar img{
+        position: absolute;
+        right: 3%;
+        top: 20px;
+    }
+    .right_navbar{
+        padding: 35px 5% 35px 51px ;
+        display: flex;
+    
+    }
+    button#login{
+        height: 60px;
+        width: 135px;
+        color:#D9D9D9;
+        background-color: rgba(255, 255, 255, 0.12);
+        border-radius: 6px;
+        border: none;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        font-family: 'Poppins';
+    }
+    
+     #signup{
+        width: 177px;
+        height: 60px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #131045;
+        margin-left: 18px;
+        background-color: #F0BBE3;
+        border-radius: 6px;
+        border: none;
+    }
+    #icon_search_drop{
+        height: 20px;
+        width: 20px;
     }
 }
