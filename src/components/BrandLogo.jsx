@@ -1,7 +1,35 @@
-import { List } from "antd";
+import {Navbar, Container} from 'react-bootstrap';
 import "./BrandLogo.css"
 function BrandLogo() {
     return(
+      <Navbar className='brand' bg="light">
+        <Container>
+          <img className="icon_brand" src="./content/Group 7.png" alt="" />
+        </Container>
+        <Container>
+          <img className="icon_brand" src="./content/Group 8.png" alt="" />
+        </Container>
+        <Container>
+          <img className="icon_brand" src="./content/Group 9.png" alt="" />
+        </Container>
+        <Container>
+          <img className="icon_brand" src="./content/Group 13.png" alt="" />
+        </Container>
+        <Container>
+          <img className="icon_brand" src="./content/Group 11.png" alt="" />
+        </Container>
+      </Navbar>
+    /*  <Navbar>
+          <div className="brand">
+            <div className="logo_brand">
+                <img className="icon_brand" src="./content/Group 7.png" alt="" />
+                <img className="icon_brand" src="./content/Group 8.png" alt="" />
+                <img className="icon_brand" src="./content/Group 9.png" alt="" />
+                <img className="icon_brand" src="./content/Group 13.png" alt="" />
+                <img className="icon_brand" src="./content/Group 11.png" alt="" />
+            </div>
+        </div>
+     </Navbar> */
    /*  const data = [
         {
           title: 'Title 1',
@@ -44,7 +72,7 @@ function BrandLogo() {
     )}
   />
     </div> */
-        <div className="brand">
+       /*  <div className="brand">
             <div className="logo_brand">
                 <img className="icon_brand" src="./content/Group 7.png" alt="" />
                 <img className="icon_brand" src="./content/Group 8.png" alt="" />
@@ -52,7 +80,7 @@ function BrandLogo() {
                 <img className="icon_brand" src="./content/Group 13.png" alt="" />
                 <img className="icon_brand" src="./content/Group 11.png" alt="" />
             </div>
-        </div>
+        </div> */
     
      );
 }

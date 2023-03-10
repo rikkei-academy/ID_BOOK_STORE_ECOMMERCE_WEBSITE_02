@@ -1,8 +1,8 @@
 import { Form, Input, Checkbox, Button } from "antd"
-import { LockOutlined, UserOutlined,MailOutlined } from '@ant-design/icons';
+import { LockOutlined, MailOutlined } from '@ant-design/icons';
 import { Link } from "react-router-dom"
 import "./Login_register.css"
-function Register() {
+function Login() {
     const onFinish = (values) => {
         console.log('Received values of form: ', values);
     };
@@ -26,7 +26,7 @@ function Register() {
                     onFinish={onFinish}
                 >
                     <p>Hello</p>
-                    <span>Sign Up to Get Started</span><br/><br/>   
+                    <span>Wellcom Back</span><br/><br/>   
                     <Form.Item
                         name="email"
                         rules={[
@@ -38,17 +38,6 @@ function Register() {
                         ]}
                     >
                         <Input prefix={<MailOutlined className="site-form-item-icon" />} placeholder="Email" />
-                    </Form.Item>
-                    <Form.Item
-                        name="username"
-                        rules={[
-                            {
-                                required: true,
-                                message: 'Please input your Username!',
-                            },
-                        ]}
-                    >
-                        <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
                     </Form.Item>
                     <Form.Item
                         name="password"
@@ -70,14 +59,16 @@ function Register() {
                             <Checkbox>Remember me</Checkbox>
                         </Form.Item>
 
-                       
+                        <Link to="" className="form-forgot" href="">
+                            Forgot password
+                        </Link>
                     </Form.Item>
 
                     <Form.Item>
                         <Button type="primary" htmlType="submit" className="form-button">
-                            Sign Up
+                            Log in
                         </Button>
-                            Or <Link to="/login">Login now!</Link>
+                            Or <Link to="/register">Sign Up now!</Link>
                     </Form.Item>
                 </Form>
                { <div className="go_finance2" id="go_finnace2">
@@ -92,4 +83,4 @@ function Register() {
     );
 }
 
-export default Register;
+export default Login;
