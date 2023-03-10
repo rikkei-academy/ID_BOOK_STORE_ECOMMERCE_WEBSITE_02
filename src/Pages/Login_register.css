@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    ;
+}
+
+.conteiner_register_login {
+    width: 70%;
+    height: 800px;
+    margin: 70px auto;
+    display: flex;
+    border-radius: 10%;
+
+}
+
+.left_register_login_box {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    width: calc(100% - 600px);
+    background: linear-gradient(180deg, #0575E6 0%, #02298A 84.79%, #021B79 100%);
+}
+
+.img_group2 {
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.go_finance1 {
+    color: white;
+    width: 60%;
+    height: max-content;
+    margin: 300px 0 0 50px;
+    
+}
+.go_finance2{
+    padding: 20px;
+    color: white;
+    display: none;
+   width: 100%;
+    background: linear-gradient(180deg, #0575E6 0%, #02298A 84.79%, #021B79 100%);
+    height: 150px;
+
+}
+ p.finance {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+ span.most_popular {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button#read_more {
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: #0575E6;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: large;
+}
+
+.right_register_login_box {
+    background-color: rgb(237, 234, 234);
+    width: 600px;
+    height: 100%;
+    padding-top:90px;
+}
+
+.form {
+    height: max-content;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.form p {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.form span {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#components-form-demo-normal .form {
+    max-width: 300px;
+}
+
+#components-form-demo-normal .form-forgot {
+    float: right;
+}
+
+#components-form-demo-normal .ant-col-rtl .form-forgot {
+    float: left;
+
+}
+
+#components-form-demo-normal .form-button {
+    width: 100%;
+}
+
+@media (max-width:1130px) {
+    .right_register_login_box{
+        width: 100%;
+        height: max-content;
+    }
+    .left_register_login_box {
+        display: none;
+    }
+    .conteiner_register_login{
+        display: block;
+    }
+    .go_finance2{
+        display: block;
+    }
+}
+@media (max-width:500px){
+    .conteiner_register_login{
+        width: 85%;
+    }
+}
