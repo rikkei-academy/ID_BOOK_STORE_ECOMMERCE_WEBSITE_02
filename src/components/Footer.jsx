@@ -1,5 +1,41 @@
 import React from 'react';
 import "./Footer.css"
+
+import { Row, Col } from 'antd';
+
+const menu=[
+  {name:"Architecture"},
+  {name:"Art"},
+  {name:"Action"},
+  {name:"Biography &amp; Autobiography"},
+  {name:"Body, Mind &amp; Spirit"},
+  {name:"Business &amp; Economics"},
+  {name:"Children Fiction"},
+  {name:"Children Non-Fiction"},
+  {name:"Comics &amp; Graphic Novels"},
+  {name:"Cooking"},
+  {name:"Crafts &amp; Hobbies"},
+  {name:"Design"},
+  {name:"Drama"},
+  {name:"Education"},
+  {name:"Family &amp; Relationships"},
+  {name:"Fiction"},
+  {name:"Foreign Language Study"},
+  {name:"Games"},
+  {name:"Gardening"},
+  {name:"Health &amp; Fitness"},
+  {name:"History"},
+  {name:"House &amp; Home"},
+  {name:"Humor"},
+  {name:"Literary Collections"},
+  {name:"Mathematics"},
+  {name:"Medica"},
+  {name:"Nature"},
+  {name:"Performing Arts"},
+  {name:"Pets"},
+  {name:"Show Other"}
+]
+
 const Footer=()=>{
     return(
         <>
@@ -14,62 +50,38 @@ const Footer=()=>{
           </div>
           <div className="ft-bottom">
             <div className="categories">+ Books categories</div>
-            <div className="list-ul-li">
-              <ul>
-                <li>Architecture</li>
-                <li>Art</li>
-                <li>Action</li>
-                <li>Biography &amp; Autobiography</li>
-                <li>Body, Mind &amp; Spirit</li>
-              </ul>
-              <ul>
-                <li>Business &amp; Economics</li>
-                <li>Children Fiction</li>
-                <li>Children Non-Fiction</li>
-                <li>Comics &amp; Graphic Novels</li>
-                <li>Cooking</li>
-              </ul>
-              <ul>
-                <li>Crafts &amp; Hobbies</li>
-                <li>Design</li>
-                <li>Drama</li>
-                <li>Education</li>
-                <li>Family &amp; Relationships</li>
-              </ul>
-              <ul>
-                <li>Fiction</li>
-                <li>Foreign Language Study</li>
-                <li>Games</li>
-                <li>Gardening</li>
-                <li>Health &amp; Fitness</li>
-              </ul>
-              <ul>
-                <li>History</li>
-                <li>House &amp; Home</li>
-                <li>Humor</li>
-                <li>Literary Collections</li>
-                <li>Mathematics</li>
-              </ul>
-              <ul>
-                <li>Medical</li>
-                <li>Nature</li>
-                <li>Performing Arts</li>
-                <li>Pets</li>
-                <li style={{color: '#EAA451', fontWeight: 550}}>Show others</li>
-              </ul>
-            </div>
+               
+               <div className='list_grid'>
+               <Row gutter={[25,10]}>
+              {menu.map((item,i)=>{
+                return(
+                  <Col key={i} className='col' xs={24} sm={12} md={6} lg={6} xl={6} xxl={4}>
+                  <p id={`child${i}`} className='child_list'>{item.name}</p>
+                </Col>
+                )
+               
+              })}
+              
+              
+
+             
+                  
+            </Row>
+               </div>
+            
+            
           </div>
         </footer>
         <div className="div-chia2">
           <div className="div-1">
-            <img className="logosach" src="img/logologo-img.png" alt="" />
-            <div className="div-1-text">Bookland is a Book Store Ecommerce Website Template by Peterdraw lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</div>
+            <img className="logosach" src="./footer/logologo-img.png" alt="" /><br />
+            <span className="div-1-text">Bookland is a Book Store Ecommerce Website Template by Peterdraw lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</span>
             <div className="list-img-div1">
-              <img src="img/social01.png" alt="" />
-              <img src="img/social02 (1).png" alt="" />
-              <img src="img/social03.png" alt="" />
-              <img src="img/social04in.png" alt="" />
-              <img src="img/social05.png" alt="" />
+              <img src="./footer/social01.png" alt="" />
+              <img src="./footer/social02 (1).png" alt="" />
+              <img src="./footer/social03.png" alt="" />
+              <img src="./footer/social04in.png" alt="" />
+              <img src="./footer/social05.png" alt="" />
             </div>
           </div>
           <div className="div-2">
@@ -98,7 +110,7 @@ const Footer=()=>{
         </div>
         <div className="foot-sticky">
           <div>Bookland Book Store Ecommerce Website -   © 2020 All Rights Reserved</div>
-          <div style={{display: 'flex', alignItems: 'center'}}>Made with <div style={{margin: '0 2px', color: 'red', fontSize: '20px'}}>♥</div> by Peterdraw</div>
+          <div> <span>Made with <span className='heart'>♥️</span>  by Peterdraw</span></div>
         </div>
       
 
