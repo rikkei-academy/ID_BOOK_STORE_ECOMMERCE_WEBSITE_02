@@ -77,7 +77,7 @@ function Register() {
                         <Button type="primary" htmlType="submit" className="form-button">
                             Sign Up
                         </Button>
-                            Or <Link to="/login">Login now!</Link>
+                        <span className="goTo">Or <Link to="/login">Login now!</Link></span>
                     </Form.Item>
                 </Form>
                { <div className="go_finance2" id="go_finnace2">

@@ -68,14 +68,14 @@ function Login() {
                         <Button type="primary" htmlType="submit" className="form-button">
                             Log in
                         </Button>
-                            Or <Link to="/register">Sign Up now!</Link>
+                            <span className="goTo">Or <Link to="/register">Sign Up now!</Link></span>
                     </Form.Item>
                 </Form>
-               { <div className="go_finance2" id="go_finnace2">
+                <div className="go_finance2" id="go_finnace2">
                     <p className="finance">Go Finance</p>
                     <span className="most_popular">The most popular pear lending of SEA</span><br />
                     <button id="read_more"> Read more </button>
-                </div>}
+                </div>
             </div>
             
         </div>

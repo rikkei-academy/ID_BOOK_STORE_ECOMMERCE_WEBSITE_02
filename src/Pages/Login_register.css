@@ -17,6 +17,7 @@ body {
     margin: 70px auto;
     display: flex;
     border-radius: 10%;
+    
 
 }
 
@@ -47,9 +48,12 @@ body {
     padding: 20px;
     color: white;
     display: none;
-   width: 100%;
+    width: 100%;
     background: linear-gradient(180deg, #0575E6 0%, #02298A 84.79%, #021B79 100%);
     height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
 }
  p.finance {
@@ -78,6 +82,7 @@ button#read_more {
     width: 600px;
     height: 100%;
     padding-top:90px;
+    position: relative;
 }
 
 .form {
@@ -115,21 +120,46 @@ button#read_more {
 
 @media (max-width:1130px) {
     .right_register_login_box{
-        width: 100%;
-        height: max-content;
+        width: calc(100% - 200px);
+        padding-top:200px
+       
     }
     .left_register_login_box {
+        width:  200px;
+    }
+    
+    .go_finance2{
         display: none;
     }
+}
+@media (max-width:750px){
     .conteiner_register_login{
+        width: 85%;
         display: block;
+        text-align: center;
+        height: 700px;
     }
     .go_finance2{
         display: block;
     }
-}
-@media (max-width:500px){
-    .conteiner_register_login{
-        width: 85%;
+    .left_register_login_box {
+        display: none;
+        
     }
+    .right_register_login_box{
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 100px;
+       
+    }
+}
+
+    
+
+.form-button{
+    line-height: 100%;
+    margin-right: 10px;
+}
+.goTo{
+    font-size: 18px;
 }

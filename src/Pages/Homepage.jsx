@@ -6,6 +6,8 @@ import Content from '../components/Content'
 import BrandLogo from '../components/BrandLogo'
 
 import Slide from"../components/Slide"
+import Feature from '../components/Feature'
+import BookOnSale from '../components/BookOnSale'
 
 const Homepage=()=>{
  return(
@@ -14,6 +16,8 @@ const Homepage=()=>{
     <Content/>
     <BrandLogo/>
     <Slide/>
+    <Feature/>
+    <BookOnSale/>
     <Footer/>
     </>
  )

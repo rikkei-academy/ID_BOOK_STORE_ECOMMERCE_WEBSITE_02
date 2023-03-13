@@ -1,0 +1,46 @@
+.sale{
+    position: relative;
+    width: 100%;
+    height: max-content;
+}
+.mySwiper{
+    width: 90%;
+    margin: 30px auto;
+    height: 100%;
+    padding: 70px 0;
+    position: relative;
+}
+.title_sale{
+    position: absolute;
+    width: 30%;
+    margin:  0 0 10px 5%;
+    top: 40px;
+}
+.title_sale p{
+    font-style: normal;
+font-weight: 700;
+font-size: 50px;
+
+}
+.swiper-button-prev {
+    position: absolute;
+    left: 75%;
+    top: 25px;
+}
+.swiper-button-next {
+    position: absolute;
+    left: 95%;
+    top: 25px;
+}
+.swiper-pagination {
+    position: absolute !important;
+    width: 300px !important;
+    top: 15px !important;
+    left: 75% !important;
+    
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+   background-color: orange !important;
+   font-size: 40px !important;
+}
+    
