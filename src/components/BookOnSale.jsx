@@ -71,6 +71,9 @@ export default function BookOnSale() {
         })}
         
       </Swiper>
+
+
+      
       <div className="title_sale">
         <p>Book On Sale</p> 
     </div>
