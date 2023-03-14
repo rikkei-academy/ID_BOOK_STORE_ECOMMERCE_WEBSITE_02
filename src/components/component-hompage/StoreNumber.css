@@ -1,0 +1,36 @@
+.row_store{
+    width: 90%;
+    margin: 30px auto;
+}
+.number_child{
+    text-align: center;
+}
+ .img_box{
+        height: 120px;
+        width: 120px;
+        margin: 30px auto;
+        border-radius: 5px;
+        border: 1px dashed #D644B2;
+        
+}
+.img_box img{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+ 
+}
+.col_number p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+.col_number span{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
