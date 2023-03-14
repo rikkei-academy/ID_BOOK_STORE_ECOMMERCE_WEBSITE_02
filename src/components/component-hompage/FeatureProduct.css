@@ -1,0 +1,32 @@
+.my_products{
+    width: 90%;
+    height: max-content;
+    margin: 0 auto;
+    
+}
+.my_products h2{
+    margin: 0 auto; 
+}
+.product{
+    margin: 0 auto;
+    height: max-content;
+    width: 600px;
+    display: flex;
+    position: relative;
+}
+.product_img {
+    width: 300px;
+    
+}
+.product_img img{
+    max-width: 100%;
+}
+.mySwiper_product{
+    display: none;
+}
+
+@media (max-width:1380px) {
+    
+
+}
+

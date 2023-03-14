@@ -3,7 +3,7 @@ import "./Feature.css"
 
 function Feature() {
     return (<>
-        <Row>
+        <Row gutter={[0,0]}>
             <Col className='col_feature' xs={24} sm={12} md={12} lg={8} xl={6} xxl={6}>
                 <img src="./Feature/logo512.png" alt="" />
             </Col>

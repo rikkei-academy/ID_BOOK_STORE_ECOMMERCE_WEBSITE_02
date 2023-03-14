@@ -1,13 +1,15 @@
 
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Content from '../components/Content'
-import BrandLogo from '../components/BrandLogo'
+import Navbar from '../components/component-hompage/Navbar'
+import Footer from '../components/component-hompage/Footer'
+import Content from '../components/component-hompage/Content'
+import BrandLogo from '../components/component-hompage/BrandLogo'
 
-import Slide from"../components/Slide"
-import Feature from '../components/Feature'
-import BookOnSale from '../components/BookOnSale'
+import Slide from"../components/component-hompage/Slide"
+import Feature from '../components/component-hompage/Feature'
+import BookOnSale from '../components/component-hompage/BookOnSale'
+import StoreNumber from '../components/component-hompage/StoreNumber'
+import FeatureProduct from '../components/component-hompage/FeatureProduct'
 
 const Homepage=()=>{
  return(
@@ -18,6 +20,8 @@ const Homepage=()=>{
     <Slide/>
     <Feature/>
     <BookOnSale/>
+    <FeatureProduct/>
+    <StoreNumber/>
     <Footer/>
     </>
  )
