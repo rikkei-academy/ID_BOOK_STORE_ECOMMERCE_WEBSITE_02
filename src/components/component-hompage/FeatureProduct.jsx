@@ -8,9 +8,6 @@ import "./FeatureProduct.css"
 
 
 export default function FeatureProduct() {
-
-
-  
   let data = [
     {
       img: "https://res.cloudinary.com/dhknvtaq2/image/upload/c_fill,h_400,w_300/v1677125153/pq08ruuuett5svb0dczi.jpg",
