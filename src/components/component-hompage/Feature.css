@@ -1,0 +1,18 @@
+.col_feature{
+    width: 90%;
+   margin: 0px auto 30px auto;
+   text-align: center;
+}
+.col_feature img{
+    width: 390px;
+    height: 200px;
+}@media (max-width:768px){
+    .col_feature{
+        width: 100%;
+       margin: 0px auto 30px auto;
+       text-align: center;
+    }
+}
+.ant-row.css-dev-only-do-not-override-1me4733 {
+    width: 100%;
+}

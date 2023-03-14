@@ -2,6 +2,7 @@ import { Form, Input, Checkbox, Button } from "antd"
 import { LockOutlined, UserOutlined,MailOutlined } from '@ant-design/icons';
 import { Link } from "react-router-dom"
 import "./Login_register.css"
+
 function Register() {
     const onFinish = (values) => {
         console.log('Received values of form: ', values);
@@ -77,7 +78,7 @@ function Register() {
                         <Button type="primary" htmlType="submit" className="form-button">
                             Sign Up
                         </Button>
-                            Or <Link to="/login">Login now!</Link>
+                        <span className="goTo">Or <Link to="/login">Login now!</Link></span>
                     </Form.Item>
                 </Form>
                { <div className="go_finance2" id="go_finnace2">

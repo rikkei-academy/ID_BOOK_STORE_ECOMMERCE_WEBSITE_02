@@ -190,7 +190,7 @@ button#login{
     
     .right_navbar{
         text-align: center;
-        padding: 25px 5% 21px 0 ;
+        padding: 5px 5% 21px 5% ;
         display: flex;
         width: 50%;
         position: absolute;
@@ -209,10 +209,11 @@ button#login{
         font-size: 18px;
         font-family: 'Poppins';
         margin-left: 30%;
+        margin-right: 50px;
     }
     
      #signup{
-        width: 150px;
+        width: 120px;
         height: 40px;
         font-family: 'Poppins';
         font-style: normal;
@@ -239,3 +240,45 @@ button#login{
         right: 22%;
     }
 }
+@media (max-width:700px){
+    #login{
+        width: 90px !important;
+        margin-left: 30% !important;
+      
+
+    }
+    #signup{
+        width: 90px !important;
+        margin-left: 20% !important;
+
+    }   
+
+}
+@media (max-width:560px) {
+    .right_navbar{
+        text-align: center;
+        padding-left:0 ;
+        right: 5%;
+    }
+    .search_navbar {
+       width: 55%;
+    }
+    .search_navbar input {
+        padding: 2px;
+     }
+    #login{
+        margin-left: 0 !important;
+        width: 90px !important;
+        margin-left: 30% !important;
+      
+
+    }
+    #signup{
+        width: 90px !important;
+        margin-left: 0 !important;
+
+    }   
+}
+    
+
+    
