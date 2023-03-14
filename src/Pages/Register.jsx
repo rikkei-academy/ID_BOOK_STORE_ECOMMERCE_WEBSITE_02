@@ -2,6 +2,7 @@ import { Form, Input, Checkbox, Button } from "antd"
 import { LockOutlined, UserOutlined,MailOutlined } from '@ant-design/icons';
 import { Link } from "react-router-dom"
 import "./Login_register.css"
+
 function Register() {
     const onFinish = (values) => {
         console.log('Received values of form: ', values);
